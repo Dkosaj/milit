@@ -1,0 +1,26 @@
+.nastepny,
+.poprzedny{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px; 
+  cursor: pointer;
+  background-color: rgba(140, 140, 140, 0.5);
+}
+.nastepny{
+    position: absolute; right:1px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
